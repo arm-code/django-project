@@ -7,6 +7,6 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('profile/', include('profile_page.urls')),
-    path('', views.index, name='index'),
+    path('', views.alexis, name='index'),
     
 ]
